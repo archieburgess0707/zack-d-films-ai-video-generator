@@ -1,0 +1,213 @@
+{
+  "project_name": "earth_stops_spinning",
+  "topic": "What If Earth Stopped Spinning?",
+  "header": "What if Earth stopped spinning?",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_procedural",
+  "narrator_voice": "kokoro_am_michael",
+  "character_sheets_required": [
+    "commuter_man_turnaround"
+  ],
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "Flung East",
+      "narration": "If Earth suddenly stopped spinning, even for one second, everything not bolted down would keep flying east at about a thousand miles an hour.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "duration_sec": 3.0,
+          "scene_description": "Earth spinning in space then abruptly stopping, 1,000 MPH label",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_1_b",
+          "duration_sec": 3.0,
+          "scene_description": "The man in the blue hoodie flung sideways through the air with speed lines",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "You're Already Moving",
+      "narration": "That's because right now, at the equator, you're already moving that fast. You just can't feel it, because everything around you moves with you.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "duration_sec": 3.0,
+          "scene_description": "Earth with glowing equator, a tiny figure riding the surface, speed readout",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_2_b",
+          "duration_sec": 3.0,
+          "scene_description": "The man standing calmly, clouds and trees drifting together with him",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "The Ground Stops",
+      "narration": "So when the ground stops, you don't. Neither do cars, trees, houses, or even the air.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "duration_sec": 3.0,
+          "scene_description": "Street scene: car, tree and house sliding east with motion lines",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_3_b",
+          "duration_sec": 3.0,
+          "scene_description": "Close-up of the car tumbling past with debris",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Supersonic Winds",
+      "narration": "The atmosphere would keep racing along at supersonic speed, creating winds stronger than any tornado, scraping across the whole planet.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "duration_sec": 3.0,
+          "scene_description": "Trees bent flat under huge wind streaks",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_4_b",
+          "duration_sec": 3.0,
+          "scene_description": "Earth wrapped in roaring white wind bands",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "Mega Waves",
+      "narration": "The oceans would keep moving too, sending giant walls of water miles inland.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "duration_sec": 3.0,
+          "scene_description": "A towering wave rising over a coastal city",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_5_b",
+          "duration_sec": 3.0,
+          "scene_description": "The wave crashing over the buildings",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "hook": false,
+      "title_en": "Year-Long Day",
+      "narration": "And if Earth stayed stopped, things get even weirder. One day would last a whole year: about six months of sunlight, then six months of darkness.",
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "duration_sec": 3.0,
+          "scene_description": "Earth and Sun, one side lit, 1 DAY = 1 YEAR",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_6_b",
+          "duration_sec": 3.0,
+          "scene_description": "Sky over a house shifting from day to long night with a month counter",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "hook": false,
+      "title_en": "Oceans Move",
+      "narration": "Without the spin, the oceans would slowly flow toward the poles, and a giant new continent would rise around the middle of the planet.",
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "duration_sec": 3.0,
+          "scene_description": "Earth with water creeping to the poles",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_7_b",
+          "duration_sec": 3.0,
+          "scene_description": "A huge brown continent band appearing around the equator",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "The Twist",
+      "narration": "But here's the crazy part. Earth actually is slowing down, right now.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "duration_sec": 3.0,
+          "scene_description": "A speedometer for Earth whose needle is dropping",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_8_b",
+          "duration_sec": 3.0,
+          "scene_description": "Clock with NOW label",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Dinosaur Days",
+      "narration": "When dinosaurs were alive, a day was about half an hour shorter. The Moon's pull is gently putting on the brakes.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "duration_sec": 3.0,
+          "scene_description": "A dinosaur under the sun with a 23.5 HOURS clock",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_9_b",
+          "duration_sec": 3.0,
+          "scene_description": "The Moon tugging on Earth's ocean bulge like a brake",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Don't Panic",
+      "narration": "Don't worry though. Each century, our day only gets about two thousandths of a second longer. So hold on tight... we're still spinning.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "duration_sec": 3.0,
+          "scene_description": "Tiny stopwatch: +0.002 seconds per century",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_10_b",
+          "duration_sec": 3.0,
+          "scene_description": "The man relieved, waving, Earth spinning happily behind him",
+          "zoom_impact": false
+        }
+      ]
+    }
+  ]
+}
