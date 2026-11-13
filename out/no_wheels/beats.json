@@ -5,77 +5,285 @@
   "style_preset": "zackd_3d_stylized",
   "narrator_voice": "cloned_user_voice",
   "target_duration_sec": 60,
-  "character_sheets_required": ["commuter_man_turnaround", "red_hatchback_car_turnaround"],
+  "character_sheets_required": [
+    "commuter_man_turnaround",
+    "red_hatchback_car_turnaround"
+  ],
   "beats": [
-    {"beat_id": "beat_1", "hook": true, "title_en": "Wheels Vanish",
-     "narration": "If every wheel on Earth vanished tonight, you wouldn't make it to work tomorrow... and that's the least of your problems.",
-     "shots": [
-      {"shot_id": "beat_1_a", "type": "wide", "duration_sec": 3.0, "camera_move": "push_in", "zoom_impact": false, "character_refs": ["commuter_man_turnaround", "red_hatchback_car_turnaround"],
-       "scene_description": "Stylized 3D man in a blue hoodie holding car keys, staring in shock at his red hatchback car whose four wheels are dissolving into glowing particles, suburban driveway at dawn."},
-      {"shot_id": "beat_1_b", "type": "detail", "duration_sec": 3.0, "camera_move": "static", "zoom_impact": true, "character_refs": ["red_hatchback_car_turnaround"],
-       "scene_description": "Close-up of the red hatchback car body slamming down onto the asphalt where its wheel used to be, sparks and dust bursting out."}]},
-    {"beat_id": "beat_2", "hook": false, "title_en": "Gridlock Planet",
-     "narration": "First, every car, bus and train drops straight onto its axles, freezing every highway into one giant parking lot.",
-     "shots": [
-      {"shot_id": "beat_2_a", "type": "wide", "duration_sec": 3.0, "camera_move": "pan_right", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Aerial view of a huge multi-lane highway full of cars, buses and trucks all lying flat on the road with no wheels, completely frozen."},
-      {"shot_id": "beat_2_b", "type": "macro_cross_section", "duration_sec": 3.0, "camera_move": "tilt_down", "zoom_impact": true, "character_refs": [],
-       "scene_description": "Cross-section cutaway of a train with no wheels, its steel axles grinding directly on the rail track, sparks flying."}]},
-    {"beat_id": "beat_3", "hook": false, "title_en": "Gears Are Wheels",
-     "narration": "But it's not just vehicles. Inside your watch, your engine, and every power plant, gears are just wheels with teeth.",
-     "shots": [
-      {"shot_id": "beat_3_a", "type": "macro_cross_section", "duration_sec": 3.0, "camera_move": "push_in", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Cutaway view inside a wristwatch showing tiny golden gears, the gears beginning to vanish one by one."},
-      {"shot_id": "beat_3_b", "type": "macro_cross_section", "duration_sec": 3.0, "camera_move": "pan_right", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Transparent cutaway of a car engine and gearbox with glowing interlocking gears disappearing, leaving empty shafts."}]},
-    {"beat_id": "beat_4", "hook": false, "title_en": "Grid Collapse",
-     "narration": "So the turbines stop spinning, and the power grid collapses. Lights out, across the entire planet.",
-     "shots": [
-      {"shot_id": "beat_4_a", "type": "macro_cross_section", "duration_sec": 3.0, "camera_move": "tilt_up", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Cutaway of a power plant turbine hall, the giant turbine wheel grinding to a halt, warning lights flashing red."},
-      {"shot_id": "beat_4_b", "type": "wide", "duration_sec": 3.0, "camera_move": "static", "zoom_impact": true, "character_refs": [],
-       "scene_description": "Night view of Earth from space, city lights across the continents blinking out in a wave until the planet is dark."}]},
-    {"beat_id": "beat_5", "hook": false, "title_en": "Empty Shelves",
-     "narration": "Without trucks, supermarket shelves would be empty in about three days, because food simply can't move fast enough.",
-     "shots": [
-      {"shot_id": "beat_5_a", "type": "wide", "duration_sec": 3.0, "camera_move": "push_in", "zoom_impact": false, "character_refs": [],
-       "scene_description": "A delivery truck lying flat on a highway with no wheels, crates of fruit and vegetables spilling out the back."},
-      {"shot_id": "beat_5_b", "type": "wide", "duration_sec": 3.0, "camera_move": "pan_right", "zoom_impact": true, "character_refs": ["commuter_man_turnaround"],
-       "scene_description": "The man in the blue hoodie standing alone in a supermarket aisle with completely empty shelves, holding an empty basket."}]},
-    {"beat_id": "beat_6", "hook": false, "title_en": "Planes Grounded",
-     "narration": "Planes are grounded too. No landing gear to take off, and no spinning turbines inside the jet engines.",
-     "shots": [
-      {"shot_id": "beat_6_a", "type": "wide", "duration_sec": 3.0, "camera_move": "pull_out", "zoom_impact": false, "character_refs": [],
-       "scene_description": "A passenger jet lying on its belly on the runway with no landing gear wheels, scraped and stuck."},
-      {"shot_id": "beat_6_b", "type": "macro_cross_section", "duration_sec": 3.0, "camera_move": "push_in", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Cross-section cutaway of a jet engine, its spinning fan and turbine discs vanishing, the engine going cold and silent."}]},
-    {"beat_id": "beat_7", "hook": false, "title_en": "Back to Sledges",
-     "narration": "So we'd go back to moving heavy things the ancient way: dragging them on sledges with ropes and muscle.",
-     "shots": [
-      {"shot_id": "beat_7_a", "type": "wide", "duration_sec": 3.0, "camera_move": "pan_right", "zoom_impact": false, "character_refs": ["commuter_man_turnaround"],
-       "scene_description": "The man in the blue hoodie straining to pull a wooden sledge piled with groceries and a fridge along a city street with ropes."},
-      {"shot_id": "beat_7_b", "type": "detail", "duration_sec": 3.0, "camera_move": "static", "zoom_impact": true, "character_refs": [],
-       "scene_description": "Close-up of the wooden sledge runners scraping and digging into the asphalt, wood splintering."}]},
-    {"beat_id": "beat_8", "hook": false, "title_en": "The Twist",
-     "narration": "But here's the crazy part. Humans lived for hundreds of thousands of years without the wheel. It was only invented about 5,500 years ago... and not for carts.",
-     "shots": [
-      {"shot_id": "beat_8_a", "type": "wide", "duration_sec": 3.0, "camera_move": "pull_out", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Stylized 3D ancient Mesopotamian village by a river at golden hour, mud brick houses, people carrying baskets by hand."},
-      {"shot_id": "beat_8_b", "type": "detail", "duration_sec": 3.0, "camera_move": "push_in", "zoom_impact": false, "character_refs": [],
-       "scene_description": "A glowing timeline floating in the air, ancient clay tablets and a question mark hovering over an empty spot."}]},
-    {"beat_id": "beat_9", "hook": false, "title_en": "Pottery First",
-     "narration": "It was for making pottery. Which means if wheels disappeared, someone would probably reinvent them within a week.",
-     "shots": [
-      {"shot_id": "beat_9_a", "type": "detail", "duration_sec": 3.0, "camera_move": "push_in", "zoom_impact": true, "character_refs": [],
-       "scene_description": "Ancient potter's hands shaping a clay pot on a spinning stone potter's wheel, wet clay glistening."},
-      {"shot_id": "beat_9_b", "type": "wide", "duration_sec": 3.0, "camera_move": "static", "zoom_impact": false, "character_refs": ["commuter_man_turnaround"],
-       "scene_description": "The man in the blue hoodie in his garage proudly holding up a freshly carved round wooden wheel, a lightbulb glowing above his head."}]},
-    {"beat_id": "beat_10", "hook": false, "title_en": "Holding It Together",
-     "narration": "Because the wheel isn't just an invention. It's the thing quietly holding the modern world together.",
-     "shots": [
-      {"shot_id": "beat_10_a", "type": "wide", "duration_sec": 3.0, "camera_move": "pull_out", "zoom_impact": false, "character_refs": ["red_hatchback_car_turnaround"],
-       "scene_description": "Wheels rematerializing in glowing light under the red hatchback car, the car lifting back up off the asphalt."},
-      {"shot_id": "beat_10_b", "type": "wide", "duration_sec": 3.0, "camera_move": "pull_out", "zoom_impact": false, "character_refs": [],
-       "scene_description": "Busy modern city at sunset with cars, trains, bikes and wind turbines all spinning and moving again, city lights switching back on."}]}
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "Wheels Vanish",
+      "narration": "If every wheel on Earth vanished tonight, you wouldn't make it to work tomorrow. And that's the least of your problems.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "push_in",
+          "zoom_impact": false,
+          "character_refs": [
+            "commuter_man_turnaround",
+            "red_hatchback_car_turnaround"
+          ],
+          "scene_description": "Stylized 3D man in a blue hoodie holding car keys, staring in shock at his red hatchback car whose four wheels are dissolving into glowing particles, suburban driveway at dawn."
+        },
+        {
+          "shot_id": "beat_1_b",
+          "type": "detail",
+          "duration_sec": 3.0,
+          "camera_move": "static",
+          "zoom_impact": true,
+          "character_refs": [
+            "red_hatchback_car_turnaround"
+          ],
+          "scene_description": "Close-up of the red hatchback car body slamming down onto the asphalt where its wheel used to be, sparks and dust bursting out."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "Gridlock Planet",
+      "narration": "Every car, bus and train would drop onto its axles, turning every highway into one giant parking lot.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pan_right",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Aerial view of a huge multi-lane highway full of cars, buses and trucks all lying flat on the road with no wheels, completely frozen."
+        },
+        {
+          "shot_id": "beat_2_b",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "camera_move": "tilt_down",
+          "zoom_impact": true,
+          "character_refs": [],
+          "scene_description": "Cross-section cutaway of a train with no wheels, its steel axles grinding directly on the rail track, sparks flying."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "Gears Are Wheels",
+      "narration": "But gears are just wheels with teeth. So your watch, your engine, and every power plant stop too.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "camera_move": "push_in",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Cutaway view inside a wristwatch showing tiny golden gears, the gears beginning to vanish one by one."
+        },
+        {
+          "shot_id": "beat_3_b",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "camera_move": "pan_right",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Transparent cutaway of a car engine and gearbox with glowing interlocking gears disappearing, leaving empty shafts."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Grid Collapse",
+      "narration": "Turbines stop spinning, the power grid collapses, and the whole planet goes dark.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "camera_move": "tilt_up",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Cutaway of a power plant turbine hall, the giant turbine wheel grinding to a halt, warning lights flashing red."
+        },
+        {
+          "shot_id": "beat_4_b",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "static",
+          "zoom_impact": true,
+          "character_refs": [],
+          "scene_description": "Night view of Earth from space, city lights across the continents blinking out in a wave until the planet is dark."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "Empty Shelves",
+      "narration": "Without trucks, supermarket shelves would be empty in about three days.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "push_in",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "A delivery truck lying flat on a highway with no wheels, crates of fruit and vegetables spilling out the back."
+        },
+        {
+          "shot_id": "beat_5_b",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pan_right",
+          "zoom_impact": true,
+          "character_refs": [
+            "commuter_man_turnaround"
+          ],
+          "scene_description": "The man in the blue hoodie standing alone in a supermarket aisle with completely empty shelves, holding an empty basket."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "hook": false,
+      "title_en": "Planes Grounded",
+      "narration": "Planes are grounded too. No landing gear, and no spinning turbines in the jet engines.",
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pull_out",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "A passenger jet lying on its belly on the runway with no landing gear wheels, scraped and stuck."
+        },
+        {
+          "shot_id": "beat_6_b",
+          "type": "macro_cross_section",
+          "duration_sec": 3.0,
+          "camera_move": "push_in",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Cross-section cutaway of a jet engine, its spinning fan and turbine discs vanishing, the engine going cold and silent."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "hook": false,
+      "title_en": "Back to Sledges",
+      "narration": "So we'd move heavy things the ancient way: dragging them on sledges.",
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pan_right",
+          "zoom_impact": false,
+          "character_refs": [
+            "commuter_man_turnaround"
+          ],
+          "scene_description": "The man in the blue hoodie straining to pull a wooden sledge piled with groceries and a fridge along a city street with ropes."
+        },
+        {
+          "shot_id": "beat_7_b",
+          "type": "detail",
+          "duration_sec": 3.0,
+          "camera_move": "static",
+          "zoom_impact": true,
+          "character_refs": [],
+          "scene_description": "Close-up of the wooden sledge runners scraping and digging into the asphalt, wood splintering."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "The Twist",
+      "narration": "But here's the crazy part. The wheel was only invented about five and a half thousand years ago... and not for carts.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pull_out",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Stylized 3D ancient Mesopotamian village by a river at golden hour, mud brick houses, people carrying baskets by hand.",
+          "share": 0.72
+        },
+        {
+          "shot_id": "beat_8_b",
+          "type": "detail",
+          "duration_sec": 3.0,
+          "camera_move": "push_in",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "A glowing timeline floating in the air, ancient clay tablets and a question mark hovering over an empty spot."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Pottery First",
+      "narration": "It was for making pottery. So if wheels vanished, someone would probably reinvent them within a week.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "type": "detail",
+          "duration_sec": 3.0,
+          "camera_move": "push_in",
+          "zoom_impact": true,
+          "character_refs": [],
+          "scene_description": "Ancient potter's hands shaping a clay pot on a spinning stone potter's wheel, wet clay glistening.",
+          "share": 0.4
+        },
+        {
+          "shot_id": "beat_9_b",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "static",
+          "zoom_impact": false,
+          "character_refs": [
+            "commuter_man_turnaround"
+          ],
+          "scene_description": "The man in the blue hoodie in his garage proudly holding up a freshly carved round wooden wheel, a lightbulb glowing above his head."
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Holding It Together",
+      "narration": "Because the wheel isn't just an invention. It's what holds the modern world together.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pull_out",
+          "zoom_impact": false,
+          "character_refs": [
+            "red_hatchback_car_turnaround"
+          ],
+          "scene_description": "Wheels rematerializing in glowing light under the red hatchback car, the car lifting back up off the asphalt."
+        },
+        {
+          "shot_id": "beat_10_b",
+          "type": "wide",
+          "duration_sec": 3.0,
+          "camera_move": "pull_out",
+          "zoom_impact": false,
+          "character_refs": [],
+          "scene_description": "Busy modern city at sunset with cars, trains, bikes and wind turbines all spinning and moving again, city lights switching back on."
+        }
+      ]
+    }
   ]
 }
