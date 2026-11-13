@@ -1,0 +1,62 @@
+[
+ {
+  "beat_id": "beat_1",
+  "start": 0.0,
+  "dur": 3.984,
+  "text": "Which dispenser would you choose? Pick fast... you only get three seconds!"
+ },
+ {
+  "beat_id": "beat_2",
+  "start": 3.984,
+  "dur": 6.708,
+  "text": "Round one! Waffles with syrup... or fluffy pancakes?"
+ },
+ {
+  "beat_id": "beat_3",
+  "start": 10.692,
+  "dur": 6.601,
+  "text": "Round two! Hot cheesy pizza... or juicy burgers?"
+ },
+ {
+  "beat_id": "beat_4",
+  "start": 17.293,
+  "dur": 6.751,
+  "text": "Round three! Ice cream cones... or sprinkle donuts?"
+ },
+ {
+  "beat_id": "beat_5",
+  "start": 24.044,
+  "dur": 6.367,
+  "text": "Round four! Crispy fries... or chicken nuggets?"
+ },
+ {
+  "beat_id": "beat_6",
+  "start": 30.411,
+  "dur": 6.708,
+  "text": "Round five! Hot chocolate... or ice cold lemonade?"
+ },
+ {
+  "beat_id": "beat_7",
+  "start": 37.119,
+  "dur": 6.495,
+  "text": "Round six! Warm cookies... or frosted cupcakes?"
+ },
+ {
+  "beat_id": "beat_8",
+  "start": 43.613,
+  "dur": 5.833,
+  "text": "Round seven! Tacos... or sushi?"
+ },
+ {
+  "beat_id": "beat_9",
+  "start": 49.447,
+  "dur": 9.161,
+  "text": "Final round! A dispenser that gives you gold coins... or one that gives you any food you want, forever?"
+ },
+ {
+  "beat_id": "beat_10",
+  "start": 58.608,
+  "dur": 2.981,
+  "text": "Comment which ones you picked! Did you go A, or B?"
+ }
+]

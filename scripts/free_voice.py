@@ -28,7 +28,7 @@ os.makedirs(os.path.join(a.project_dir, "audio"), exist_ok=True)
 timing, parts, t = [], [], 0.0
 for b in beats:
     samples, sr = k.create(b.get("tts_text", b["narration"]), voice=a.voice, speed=a.speed, lang="en-us")
-    seg = np.concatenate([samples, np.zeros(int(sr * 0.25), dtype=samples.dtype)])
+    seg = np.concatenate([samples, np.zeros(int(sr * b.get("pause_after", 0.25)), dtype=samples.dtype)])
     dur = len(seg) / sr
     timing.append({"beat_id": b["beat_id"], "start": round(t, 3), "dur": round(dur, 3), "text": b["narration"]})
     parts.append(seg)

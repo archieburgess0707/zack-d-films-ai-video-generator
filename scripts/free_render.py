@@ -24,6 +24,7 @@ SHOTS = {}         # filled from the project's shots.py
 HEADER = ""
 W, H, FPS, K = 720, 1280, 30, 2          # K = supersampling factor
 OUTRO = 3.5
+COUNT_STEP = 0.9   # seconds per countdown number (3, 2, 1) before the reveal
 FONT_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 _fonts = {}
 
@@ -264,7 +265,7 @@ def build_timeline():
                           "impact": s.get("zoom_impact", False)})
             st += tm["dur"] * sh
         ws = b["narration"].split()
-        speak = tm["dur"] - 0.25
+        speak = tm["dur"] - b.get("pause_after", 0.25)
         weights = [len(w) + 2 for w in ws]
         tot, acc = sum(weights), 0
         group = []
@@ -392,6 +393,24 @@ def make_audio(total, out_path):
             L = min(int(0.4 * sr), n - a)
             x = np.arange(L) / sr
             sfx[a:a + L] += np.sin(2 * np.pi * (90 - 50 * x) * x) * np.exp(-x * 9) * 0.6
+    # countdown beats: 3 ticks then a "ding" (beat["countdown"] = seconds before beat end it starts)
+    beats = json.load(open(os.path.join(HERE, "beats.json")))["beats"]
+    timing = {x["beat_id"]: x for x in json.load(open(os.path.join(HERE, "audio", "timing.json")))}
+    for b in beats:
+        if not b.get("countdown"):
+            continue
+        end = timing[b["beat_id"]]["start"] + timing[b["beat_id"]]["dur"]
+        c0 = end - b["countdown"]
+        for k in range(4):
+            a = int((c0 + k * COUNT_STEP) * sr)
+            L = min(int((0.5 if k == 3 else 0.08) * sr), n - a)
+            if L <= 0:
+                continue
+            x = np.arange(L) / sr
+            if k < 3:
+                sfx[a:a + L] += np.sin(2 * np.pi * 1600 * x) * np.exp(-x * 60) * 0.9
+            else:
+                sfx[a:a + L] += (np.sin(2 * np.pi * 1318.5 * x) + 0.5 * np.sin(2 * np.pi * 1975.5 * x)) * np.exp(-x * 5) * 0.7
     voice = np.zeros(n)
     voice[:min(n, len(narr))] = narr[:n]
     duck = 1 - 0.55 * (np.convolve(np.abs(voice) > 0.02, np.ones(sr // 4) / (sr // 4), mode="same") > 0.05)

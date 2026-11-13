@@ -1,0 +1,138 @@
+{
+  "project_name": "dispenser_choice",
+  "topic": "Which Dispenser Would You Choose?",
+  "header": "Which dispenser would you choose?",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_procedural",
+  "narrator_voice": "kokoro_af_heart_upbeat",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "title_en": "Title",
+      "narration": "Which dispenser would you choose? Pick fast... you only get three seconds!",
+      "pause_after": 0.4,
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "scene_description": "Title card with two mystery dispensers"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "title_en": "Round one",
+      "narration": "Round one! Waffles with syrup... or fluffy pancakes?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "scene_description": "Dispenser A: Waffles with syrup; dispenser B: fluffy pancakes; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "title_en": "Round two",
+      "narration": "Round two! Hot cheesy pizza... or juicy burgers?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "scene_description": "Dispenser A: Hot cheesy pizza; dispenser B: juicy burgers; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "title_en": "Round three",
+      "narration": "Round three! Ice cream cones... or sprinkle donuts?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "scene_description": "Dispenser A: Ice cream cones; dispenser B: sprinkle donuts; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "title_en": "Round four",
+      "narration": "Round four! Crispy fries... or chicken nuggets?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "scene_description": "Dispenser A: Crispy fries; dispenser B: chicken nuggets; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "title_en": "Round five",
+      "narration": "Round five! Hot chocolate... or ice cold lemonade?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "scene_description": "Dispenser A: Hot chocolate; dispenser B: ice cold lemonade; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "title_en": "Round six",
+      "narration": "Round six! Warm cookies... or frosted cupcakes?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "scene_description": "Dispenser A: Warm cookies; dispenser B: frosted cupcakes; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "title_en": "Round seven",
+      "narration": "Round seven! Tacos... or sushi?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "scene_description": "Dispenser A: Tacos; dispenser B: sushi; 3-2-1 countdown; both dispense"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "title_en": "Final round",
+      "narration": "Final round! A dispenser that gives you gold coins... or one that gives you any food you want, forever?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "scene_description": "Dispenser A: gold coins; B: any food forever"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "title_en": "Comment",
+      "narration": "Comment which ones you picked! Did you go A, or B?",
+      "pause_after": 0.4,
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "scene_description": "Comment your picks card"
+        }
+      ]
+    }
+  ]
+}
