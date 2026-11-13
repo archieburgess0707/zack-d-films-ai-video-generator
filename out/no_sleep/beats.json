@@ -1,0 +1,210 @@
+{
+  "project_name": "no_sleep",
+  "topic": "What If You Stopped Sleeping?",
+  "header": "What if you stopped sleeping?",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_procedural",
+  "narrator_voice": "kokoro_am_michael",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "Brain Naps",
+      "narration": "If you stopped sleeping, after just one day, tiny parts of your brain would start falling asleep... while you're still awake.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "duration_sec": 3.0,
+          "scene_description": "Man in bed at night, eyes wide open, clock showing hour 24",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_1_b",
+          "duration_sec": 3.0,
+          "scene_description": "Brain with patches dimming and Zs floating out",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "Microsleeps",
+      "narration": "These are called microsleeps. For a few seconds, your brain simply switches off, and you don't even notice.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "duration_sec": 3.0,
+          "scene_description": "Man at a desk, eyes drooping shut then snapping open",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_2_b",
+          "duration_sec": 3.0,
+          "scene_description": "Brain power switch flicking OFF for 3 seconds",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "Legally Drunk",
+      "narration": "After twenty-four hours awake, your reaction time is about as bad as someone who's legally drunk.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "duration_sec": 3.0,
+          "scene_description": "Reaction-time bar growing, = DRUNK stamp",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_3_b",
+          "duration_sec": 3.0,
+          "scene_description": "Man swaying with stars circling his head",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Cleaning Crew",
+      "narration": "That's because while you sleep, your brain runs a cleaning system that washes away the waste built up during the day. Skip sleep, and the trash piles up.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "duration_sec": 3.0,
+          "scene_description": "Brain washed by blue fluid sweeping waste away",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_4_b",
+          "duration_sec": 3.0,
+          "scene_description": "Brain with trash dots piling up",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "Hunger Hormones",
+      "narration": "Your body gets confused too. The hormone that makes you hungry goes up, and the one that tells you you're full goes down. So you crave junk food.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "duration_sec": 3.0,
+          "scene_description": "Two hormone meters: HUNGER up, FULL down",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_5_b",
+          "duration_sec": 3.0,
+          "scene_description": "Junk food floating toward the man",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "hook": false,
+      "title_en": "Weak Shield",
+      "narration": "Your immune system gets weaker, which makes it easier to catch a cold.",
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "duration_sec": 3.0,
+          "scene_description": "Immune shield cracking as germs approach",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_6_b",
+          "duration_sec": 3.0,
+          "scene_description": "Man with a red nose, ACHOO",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "hook": false,
+      "title_en": "Day Three",
+      "narration": "By day three, many people start seeing things that aren't there: walls that seem to move, and shapes in the corner of their eye.",
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "duration_sec": 3.0,
+          "scene_description": "Bedroom walls wobbling, DAY 3",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_7_b",
+          "duration_sec": 3.0,
+          "scene_description": "Shadowy shapes in the corner, giant eye",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "Randy Gardner",
+      "narration": "But here's the crazy part. In 1964, a seventeen-year-old named Randy Gardner stayed awake for eleven whole days.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "duration_sec": 3.0,
+          "scene_description": "Calendar 1964 with a 17-year-old",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_8_b",
+          "duration_sec": 3.0,
+          "scene_description": "Day counter rolling to DAY 11",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Too Dangerous",
+      "narration": "By the end, he struggled to remember things and even hallucinated. It became so risky that Guinness World Records stopped accepting attempts.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "duration_sec": 3.0,
+          "scene_description": "Confused teen with question marks",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_9_b",
+          "duration_sec": 3.0,
+          "scene_description": "Record book with red X",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Go To Sleep",
+      "narration": "So tonight, put the phone down. Sleep isn't wasted time... it's when your brain repairs itself.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "duration_sec": 3.0,
+          "scene_description": "Phone screen switching off on a nightstand",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_10_b",
+          "duration_sec": 3.0,
+          "scene_description": "Man sleeping peacefully, brain in REPAIR MODE",
+          "zoom_impact": false
+        }
+      ]
+    }
+  ]
+}

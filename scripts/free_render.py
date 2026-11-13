@@ -137,14 +137,15 @@ def car(d, x, ground, sc=1.0, wheel_s=1.0, drop=0.0, ang=0.0, color=CAR_RED):
         wheel(d, wx, ground - wr, wr, ang, wheel_s)
 
 
-def person(d, x, ground, sc=1.0, mood="neutral", arms="down", lean=0.0):
+def person(d, x, ground, sc=1.0, mood="neutral", arms="down", lean=0.0, hoodie=HOODIE):
+    """mood: neutral, shock, happy, strain, tired, sleep."""
     d.shadow(x, ground + 2, 60 * sc, 12 * sc)
     hip = ground - 95 * sc
     for dx in (-16, 16):
         d.line([(x + dx * sc, hip), (x + dx * sc + lean * 20 * sc, ground - 6 * sc)], (40, 45, 70), 22 * sc)
         d.ell(x + dx * sc + lean * 20 * sc + 6 * sc, ground - 6 * sc, 17 * sc, 9 * sc, (30, 30, 35))
     tx = x - lean * 30 * sc
-    d.rect(tx - 48 * sc, hip - 120 * sc, tx + 48 * sc, hip + 6 * sc, HOODIE, r=34 * sc)
+    d.rect(tx - 48 * sc, hip - 120 * sc, tx + 48 * sc, hip + 6 * sc, hoodie, r=34 * sc)
     d.rect(tx - 40 * sc, hip - 112 * sc, tx - 18 * sc, hip - 10 * sc, (255, 255, 255, 40), r=10 * sc)
     sh = hip - 100 * sc
     if arms == "up":
@@ -156,21 +157,31 @@ def person(d, x, ground, sc=1.0, mood="neutral", arms="down", lean=0.0):
     else:
         hands = [(tx - 62 * sc, sh + 85 * sc), (tx + 62 * sc, sh + 85 * sc)]
     for side, hnd in zip((-1, 1), hands):
-        d.line([(tx + side * 42 * sc, sh), hnd], shade(HOODIE, 0.85), 22 * sc)
+        d.line([(tx + side * 42 * sc, sh), hnd], shade(hoodie, 0.85), 22 * sc)
         d.ell(hnd[0], hnd[1], 13 * sc, 13 * sc, SKIN)
     hx, hy = tx + lean * 10 * sc, sh - 62 * sc
     d.ball(hx, hy, 52 * sc, SKIN)
     d.d.chord([(hx - 54 * sc) * K, (hy - 58 * sc) * K, (hx + 54 * sc) * K, (hy + 30 * sc) * K], 180, 360, fill=HAIR)
     ey = hy + 4 * sc
     for ex in (-18, 18):
+        if mood == "sleep":
+            d.d.arc([(hx + (ex - 9) * sc) * K, (ey - 6 * sc) * K, (hx + (ex + 9) * sc) * K, (ey + 6 * sc) * K],
+                    10, 170, fill=(40, 30, 30), width=int(3 * sc * K))
+            continue
         r = 9 if mood == "shock" else 7
         d.ell(hx + ex * sc, ey, r * sc, r * sc * 1.2, (255, 255, 255))
         d.ell(hx + ex * sc, ey + 1 * sc, 4.5 * sc, 5 * sc, (30, 30, 40))
+        if mood == "tired":  # heavy eyelids + dark circles
+            d.rect(hx + (ex - 10) * sc, ey - 10 * sc, hx + (ex + 10) * sc, ey + 1 * sc, shade(SKIN, 0.92))
+            d.d.arc([(hx + (ex - 10) * sc) * K, (ey + 2 * sc) * K, (hx + (ex + 10) * sc) * K, (ey + 14 * sc) * K],
+                    20, 160, fill=(150, 110, 140), width=int(3 * sc * K))
     if mood == "shock":
         d.ell(hx, hy + 30 * sc, 9 * sc, 12 * sc, (90, 30, 30))
     elif mood == "happy":
         d.d.arc([(hx - 18 * sc) * K, (hy + 12 * sc) * K, (hx + 18 * sc) * K, (hy + 36 * sc) * K], 10, 170,
                 fill=(90, 30, 30), width=int(5 * sc * K))
+    elif mood in ("tired", "sleep"):
+        d.ell(hx, hy + 30 * sc, 6 * sc, 4 * sc, (90, 30, 30))
     elif mood == "strain":
         d.line([(hx - 14 * sc, hy + 28 * sc), (hx + 14 * sc, hy + 26 * sc)], (90, 30, 30), 5 * sc)
         d.ell(hx + 40 * sc, hy - 20 * sc, 6 * sc, 9 * sc, (120, 190, 255))
