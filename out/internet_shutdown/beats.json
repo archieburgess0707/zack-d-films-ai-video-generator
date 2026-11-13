@@ -1,0 +1,212 @@
+{
+  "project_name": "internet_shutdown",
+  "topic": "What If the Internet Shut Down for a Week?",
+  "header": "What if the internet shut down?",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_procedural",
+  "narrator_voice": "kokoro_am_michael",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "No Groceries",
+      "narration": "If the internet shut down tomorrow, you couldn't buy groceries... and it's not because the shops are closed.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "duration_sec": 3.0,
+          "scene_description": "Checkout card terminal flashing ERROR",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_1_b",
+          "duration_sec": 3.0,
+          "scene_description": "Shop with OPEN sign, CARD DECLINED stamp",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "Cash Only",
+      "narration": "Most card payments need the internet to check with your bank. So suddenly, cash is the only thing that works, and most people barely carry any.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "duration_sec": 3.0,
+          "scene_description": "Card to bank connection breaking",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_2_b",
+          "duration_sec": 3.0,
+          "scene_description": "Empty wallet, CASH ONLY sign",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "Empty Shelves",
+      "narration": "Shops order their stock through computer networks too. Within days, shelves would start running low.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "duration_sec": 3.0,
+          "scene_description": "Stock order screen with error",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_3_b",
+          "duration_sec": 3.0,
+          "scene_description": "Supermarket shelves emptying",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Useless Phone",
+      "narration": "Your phone would turn into a very expensive flashlight. No messages, no videos, no social media.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "duration_sec": 3.0,
+          "scene_description": "Phone with no-connection spinner and greyed apps",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_4_b",
+          "duration_sec": 3.0,
+          "scene_description": "Man using phone as a flashlight in the dark",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "GPS Still Works",
+      "narration": "But here's something surprising. Your GPS would still know exactly where you are, because it talks to satellites, not the internet. You just might not be able to load the map.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "duration_sec": 3.0,
+          "scene_description": "Satellites beaming location to a phone",
+          "zoom_impact": false,
+          "share": 0.68
+        },
+        {
+          "shot_id": "beat_5_b",
+          "duration_sec": 3.0,
+          "scene_description": "Blank map screen with a pin, LOADING...",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "hook": false,
+      "title_en": "Calls Still Work",
+      "narration": "Old-fashioned phone calls and texts would mostly still work, and so would emergency numbers.",
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "duration_sec": 3.0,
+          "scene_description": "Phone ringing with a text bubble",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_6_b",
+          "duration_sec": 3.0,
+          "scene_description": "Ambulance light flashing, EMERGENCY CALLS WORK",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "hook": false,
+      "title_en": "World Freezes",
+      "narration": "Businesses, banks, and airlines would freeze, and the world could lose billions of dollars every single day.",
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "duration_sec": 3.0,
+          "scene_description": "Airport board: every flight CANCELLED",
+          "zoom_impact": true
+        },
+        {
+          "shot_id": "beat_7_b",
+          "duration_sec": 3.0,
+          "scene_description": "Money counter dropping, coins falling",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "Ocean Cables",
+      "narration": "And here's the crazy part. The internet isn't floating in the sky. Almost all of it travels through cables lying on the bottom of the ocean.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "duration_sec": 3.0,
+          "scene_description": "Cloud with a question mark, camera dives below the waves",
+          "zoom_impact": false,
+          "share": 0.42
+        },
+        {
+          "shot_id": "beat_8_b",
+          "duration_sec": 3.0,
+          "scene_description": "Glowing data cable on the sea floor with fish",
+          "zoom_impact": true
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Touch Grass",
+      "narration": "So people would do something wild: go outside, read paper maps, and actually talk to each other.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "duration_sec": 3.0,
+          "scene_description": "Man outside reading a giant paper map",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_9_b",
+          "duration_sec": 3.0,
+          "scene_description": "Two people chatting with speech bubbles",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Back Online",
+      "narration": "And when it finally came back on? Get ready for a whole week of notifications... all at once.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "duration_sec": 3.0,
+          "scene_description": "Wi-Fi bars filling up, BACK ONLINE",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_10_b",
+          "duration_sec": 3.0,
+          "scene_description": "Phone exploding with 9,999+ notifications",
+          "zoom_impact": true
+        }
+      ]
+    }
+  ]
+}
