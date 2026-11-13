@@ -2,61 +2,61 @@
  {
   "beat_id": "beat_1",
   "start": 0.0,
-  "dur": 6.458,
+  "dur": 5.754,
   "text": "If the internet shut down tomorrow, you couldn't buy groceries... and it's not because the shops are closed."
  },
  {
   "beat_id": "beat_2",
-  "start": 6.458,
-  "dur": 9.146,
+  "start": 5.754,
+  "dur": 7.93,
   "text": "Most card payments need the internet to check with your bank. So suddenly, cash is the only thing that works, and most people barely carry any."
  },
  {
   "beat_id": "beat_3",
-  "start": 15.604,
-  "dur": 6.266,
+  "start": 13.684,
+  "dur": 5.434,
   "text": "Shops order their stock through computer networks too. Within days, shelves would start running low."
  },
  {
   "beat_id": "beat_4",
-  "start": 21.87,
-  "dur": 7.055,
+  "start": 19.118,
+  "dur": 6.159,
   "text": "Your phone would turn into a very expensive flashlight. No messages, no videos, no social media."
  },
  {
   "beat_id": "beat_5",
-  "start": 28.925,
-  "dur": 10.938,
+  "start": 25.277,
+  "dur": 9.85,
   "text": "But here's something surprising. Your GPS would still know exactly where you are, because it talks to satellites, not the internet. You just might not be able to load the map."
  },
  {
   "beat_id": "beat_6",
-  "start": 39.863,
-  "dur": 5.989,
+  "start": 35.127,
+  "dur": 5.263,
   "text": "Old-fashioned phone calls and texts would mostly still work, and so would emergency numbers."
  },
  {
   "beat_id": "beat_7",
-  "start": 45.852,
-  "dur": 6.607,
+  "start": 40.391,
+  "dur": 6.095,
   "text": "Businesses, banks, and airlines would freeze, and the world could lose billions of dollars every single day."
  },
  {
   "beat_id": "beat_8",
-  "start": 52.459,
-  "dur": 8.634,
+  "start": 46.486,
+  "dur": 7.866,
   "text": "And here's the crazy part. The internet isn't floating in the sky. Almost all of it travels through cables lying on the bottom of the ocean."
  },
  {
   "beat_id": "beat_9",
-  "start": 61.093,
-  "dur": 6.287,
+  "start": 54.352,
+  "dur": 5.477,
   "text": "So people would do something wild: go outside, read paper maps, and actually talk to each other."
  },
  {
   "beat_id": "beat_10",
-  "start": 67.381,
-  "dur": 5.967,
+  "start": 59.829,
+  "dur": 5.178,
   "text": "And when it finally came back on? Get ready for a whole week of notifications... all at once."
  }
 ]
