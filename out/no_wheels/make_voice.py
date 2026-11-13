@@ -9,7 +9,7 @@ beats = json.load(open(os.path.join(here, "beats.json")))["beats"]
 k = Kokoro(os.path.join(model_dir, "kokoro-v1.0.int8.onnx"), os.path.join(model_dir, "voices-v1.0.bin"))
 timing, parts, t = [], [], 0.0
 for b in beats:
-    samples, sr = k.create(b["narration"], voice=voice, speed=1.15, lang="en-us")
+    samples, sr = k.create(b["narration"], voice=voice, speed=1.1, lang="en-us")
     gap = np.zeros(int(sr * 0.25), dtype=samples.dtype)
     seg = np.concatenate([samples, gap])
     dur = len(seg) / sr
