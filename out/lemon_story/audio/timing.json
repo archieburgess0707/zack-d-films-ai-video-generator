@@ -1,0 +1,44 @@
+[
+ {
+  "beat_id": "beat_1",
+  "start": 0.0,
+  "dur": 7.876,
+  "text": "This is Lenny. Lenny is a lemon. And nobody... ever... invites him anywhere."
+ },
+ {
+  "beat_id": "beat_2",
+  "start": 7.876,
+  "dur": 4.436,
+  "text": "Ew! You're SO sour!"
+ },
+ {
+  "beat_id": "beat_3",
+  "start": 12.312,
+  "dur": 5.716,
+  "text": "Maybe I'm just... too much."
+ },
+ {
+  "beat_id": "beat_4",
+  "start": 18.027,
+  "dur": 4.134,
+  "text": "Then... the heatwave hit."
+ },
+ {
+  "beat_id": "beat_5",
+  "start": 22.161,
+  "dur": 3.966,
+  "text": "Lenny! Bestie! Are you free?!"
+ },
+ {
+  "beat_id": "beat_6",
+  "start": 26.127,
+  "dur": 3.691,
+  "text": "Sorry... I'm fully booked."
+ },
+ {
+  "beat_id": "beat_7",
+  "start": 29.818,
+  "dur": 5.302,
+  "text": "Sometimes being a little sour... is exactly what everyone needs."
+ }
+]

@@ -1,0 +1,114 @@
+{
+  "project_name": "lemon_story",
+  "topic": "The Lemon Nobody Wants",
+  "header": "The Lemon Nobody Wants",
+  "aspect_ratio": "9:16",
+  "style_preset": "muapi_veo31_pixar",
+  "narrator_voice": "ElevenLabs v3: George / Will / Laura",
+  "hook_text": [
+    "NOBODY WANTED",
+    "THE LEMON...",
+    "UNTIL THIS HAPPENED"
+  ],
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "speaker": "Narrator",
+      "narration": "This is Lenny. Lenny is a lemon. And nobody... ever... invites him anywhere.",
+      "tts_text": "This is Lenny. Lenny is a lemon. [pause] And nobody... ever... invites him anywhere.",
+      "el_voice": "JBFqnCBsd6RMkjVDRZzb",
+      "pause_after": 0.9,
+      "shots": [
+        {
+          "shot_id": "c1",
+          "scene_description": "Veo clip c1 from keyframe k1"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "speaker": "Sophie",
+      "narration": "Ew! You're SO sour!",
+      "tts_text": "[disgusted] Ewww! You're SO sour!",
+      "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+      "pause_after": 1.3,
+      "shots": [
+        {
+          "shot_id": "c2",
+          "scene_description": "Veo clip c2 from keyframe k2"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "speaker": "Lenny",
+      "narration": "Maybe I'm just... too much.",
+      "tts_text": "[sighs] Maybe I'm just... [sad] too much.",
+      "el_voice": "bIHbv24MWmeRgasZH58o",
+      "pause_after": 1.3,
+      "shots": [
+        {
+          "shot_id": "c3",
+          "scene_description": "Veo clip c3 from keyframe k3"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "speaker": "Narrator",
+      "narration": "Then... the heatwave hit.",
+      "tts_text": "[dramatic] Then... the heatwave hit.",
+      "el_voice": "JBFqnCBsd6RMkjVDRZzb",
+      "pause_after": 2.2,
+      "shots": [
+        {
+          "shot_id": "c4",
+          "scene_description": "Veo clip c4 from keyframe k4"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "speaker": "Sophie",
+      "narration": "Lenny! Bestie! Are you free?!",
+      "tts_text": "[desperate] Lenny! Bestie! [excited] Are you free?!",
+      "el_voice": "FGY2WhTYpPnrIDTdsKH5",
+      "pause_after": 1.3,
+      "shots": [
+        {
+          "shot_id": "c5",
+          "scene_description": "Veo clip c5 from keyframe k5"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "speaker": "Lenny",
+      "narration": "Sorry... I'm fully booked.",
+      "tts_text": "[smug] Sorry... [chuckles] I'm fully booked.",
+      "el_voice": "bIHbv24MWmeRgasZH58o",
+      "pause_after": 1.6,
+      "shots": [
+        {
+          "shot_id": "c6",
+          "scene_description": "Veo clip c6 from keyframe k6"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "speaker": "Narrator",
+      "narration": "Sometimes being a little sour... is exactly what everyone needs.",
+      "tts_text": "[warmly] Sometimes being a little sour... is exactly what everyone needs.",
+      "el_voice": "JBFqnCBsd6RMkjVDRZzb",
+      "pause_after": 1.2,
+      "shots": [
+        {
+          "shot_id": "c7",
+          "scene_description": "Veo clip c7 from keyframe k7"
+        }
+      ]
+    }
+  ],
+  "outro_sec": 3.0
+}
