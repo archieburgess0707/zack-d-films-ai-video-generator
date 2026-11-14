@@ -18,3 +18,10 @@
 - Moon — whiteboard (`out/no_moon_whiteboard`) and cartoon (`out/no_moon`)
 - Bees — under 60s length test (`out/no_bees`)
 - No wheels (`out/no_wheels`)
+
+## Setup
+- Cloud environment **zack-d-films-ai-video-generator** installs Blender, Mesa EGL, Comic Neue and Kokoro on start.
+  Voice models live in `/opt/kokoro` → `python3 scripts/free_voice.py out/<project> --models /opt/kokoro`.
+- MuAPI key is saved on the Default environment only; account balance was $0 (user doesn't want to pay).
+- Next direction (user's idea): AI "fruit drama" style storylines made with an AI video app (Kling / Dreamina) — Claude writes scripts, character sheets and shot prompts; user generates clips and edits in CapCut. Label AI content on TikTok.
+- 3D Blender "Dave Finds Out" story: Parts 1–2 finished, Part 3 stopped — user felt the visuals weren't good enough. Upgraded look test: `blender/style_v2.py`.
