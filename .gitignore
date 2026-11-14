@@ -1,18 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+env/
+venv/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
 
 # Node
-# OS / IDE
-# Python
-*$py.class
-*.py[cod]
-.DS_Store
-.env
-.idea/
-.vscode/
-Thumbs.db
-__pycache__/
-env/
 node_modules/
 npm-debug.log
+
+# Blender render frames (large, regenerable)
 out/*/frames/
-out/*/frames/*.log
-venv/
