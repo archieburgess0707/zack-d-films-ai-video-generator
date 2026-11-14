@@ -14,7 +14,7 @@ YEL, WHITE = (255, 235, 80), (255, 255, 255)
 
 # shot -> list of (text, y, appear-at fraction, size, colour)
 LABELS = {
-    "p1_b1_a": [("THIS IS DAVE", 300, 0.15, 56, YEL)],
+    "p1_b1_a": [("THIS IS DAVE", 300, 0.62, 56, YEL)],
     "p1_b2_a": [("WEIRD...", 300, 0.4, 64, YEL)],
     "p1_b8_a": [("DETECTIVE DAVE", 290, 0.2, 58, YEL)],
     "p1_b9_b": [("WHO IS HE?!", 290, 0.3, 64, (255, 120, 120))],
@@ -58,9 +58,11 @@ def notification(d, p, who, msg, y=520, show_heart=False):
     d.ell(140, yy, 46, 46, (255, 225, 190))
     pizza_icon(d, 140, yy, 30)
     d.text(210, yy - 30, who, 34, (30, 30, 40), anchor="lm")
-    d.text(210, yy + 22, msg, 28, (80, 80, 95), anchor="lm")
+    room = 640 - 210 - (50 if show_heart else 0)
+    ms = min(28, 28 * room / (font(28).getlength(msg) / K))
+    d.text(210, yy + 22, msg, ms, (80, 80, 95), anchor="lm")
     if show_heart:
-        heart(d, 615, yy + 18, 20)
+        heart(d, 210 + font(ms).getlength(msg) / K + 30, yy + 14, 16)
 
 
 def photo_card(d, p):
