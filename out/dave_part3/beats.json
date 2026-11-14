@@ -1,0 +1,192 @@
+{
+  "project_name": "dave_part3",
+  "topic": "Dave Finds Out: Part 3",
+  "header": "Dave Finds Out \u2014 Part 3",
+  "aspect_ratio": "9:16",
+  "style_preset": "blender_3d_clay",
+  "narrator_voice": "kokoro_af_heart_upbeat + character voices",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "speaker": "Narrator",
+      "narration": "Turns out, Chloe was dating both of them. At the same time.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b1_a",
+          "scene_description": "Chloe texting on two phones at once"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "speaker": "Brad",
+      "narration": "She told me you were her cousin.",
+      "voice": "am_onyx",
+      "speed": 1.0,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b2_a",
+          "scene_description": "Brad, offended"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "speaker": "Dave",
+      "narration": "She told me you were her personal trainer!",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b3_a",
+          "scene_description": "Dave, outraged"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "speaker": "Narrator",
+      "narration": "So Dave and Brad came up with a plan. A very... dramatic plan.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b4_a",
+          "scene_description": "Dave and Brad plotting by candlelight, evil grins"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "speaker": "Narrator",
+      "narration": "Saturday night. Chloe gets invited to a fancy restaurant. Twice.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b5_a",
+          "scene_description": "Chloe reading two invitations"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "speaker": "Narrator",
+      "narration": "Dave turns up. Then Brad turns up. And they both get down on one knee.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b6_a",
+          "scene_description": "Restaurant: both kneel with ring boxes, Chloe between"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "speaker": "Chloe",
+      "narration": "Um... yes? To both?",
+      "voice": "af_bella",
+      "speed": 1.12,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b7_a",
+          "scene_description": "Chloe panicking"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "speaker": "Narrator",
+      "narration": "They open the boxes...",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b8_a",
+          "scene_description": "Boxes burst open with confetti"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "speaker": "Dave",
+      "narration": "We know.",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b9_a",
+          "scene_description": "Dave and Brad stand up in sunglasses"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "speaker": "Narrator",
+      "narration": "The whole restaurant claps as they walk out together. Best friends forever.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b10_a",
+          "scene_description": "Dave and Brad walk away arm in arm, Chloe alone"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_11",
+      "speaker": "Narrator",
+      "narration": "Later that night, Chloe's phone buzzes. Pizza Guy: your order is outside.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b11_a",
+          "scene_description": "Chloe on the sofa, phone buzzing"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_12",
+      "speaker": "Narrator",
+      "narration": "She opens the door...",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b12_a",
+          "scene_description": "Door opens: Dave and Brad in pizza hats with a pizza"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_13",
+      "speaker": "Dave",
+      "narration": "Enjoy your pizza!",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p3_b13_a",
+          "scene_description": "Pizza close-up: BYE in pepperoni"
+        }
+      ]
+    }
+  ]
+}

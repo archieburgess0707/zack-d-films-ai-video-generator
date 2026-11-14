@@ -1,0 +1,172 @@
+{
+  "project_name": "dave_part1",
+  "topic": "Dave Finds Out: Part 1",
+  "header": "Dave Finds Out \u2014 Part 1",
+  "aspect_ratio": "9:16",
+  "style_preset": "blender_3d_clay",
+  "narrator_voice": "kokoro_af_heart_upbeat + character voices",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "speaker": "Narrator",
+      "narration": "This is Dave. Dave thinks he has the perfect girlfriend, Chloe.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b1_a",
+          "scene_description": "Dave and Chloe on the sofa, smiling"
+        },
+        {
+          "shot_id": "p1_b1_b",
+          "scene_description": "Chloe waves at camera"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "speaker": "Narrator",
+      "narration": "But lately, Chloe has been acting... weird.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b2_a",
+          "scene_description": "Chloe turned away, giggling at her phone"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "speaker": "Chloe",
+      "narration": "Hehe... stop it!",
+      "voice": "af_bella",
+      "speed": 1.12,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b3_a",
+          "scene_description": "Close-up: Chloe giggling at her phone"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "speaker": "Dave",
+      "narration": "Who are you texting?",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b4_a",
+          "scene_description": "Dave leans in suspiciously"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "speaker": "Chloe",
+      "narration": "Nobody! Just... the pizza guy.",
+      "voice": "af_bella",
+      "speed": 1.12,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b5_a",
+          "scene_description": "Chloe hides her phone behind her back"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "speaker": "Narrator",
+      "narration": "At two in the morning, her phone lights up. A message from... Pizza Guy.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b6_a",
+          "scene_description": "Dark room, phone glowing on the table"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "speaker": "Dave",
+      "narration": "The pizza guy... loves her?!",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b7_a",
+          "scene_description": "Dave's shocked face lit by the phone"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "speaker": "Narrator",
+      "narration": "So Dave does what any reasonable man would do. He becomes a detective.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b8_a",
+          "scene_description": "Dave in detective hat and moustache with magnifying glass"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "speaker": "Narrator",
+      "narration": "The next day, he follows her to a cafe, and sees her hugging a very tall, very handsome stranger.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b9_a",
+          "scene_description": "Cafe: Chloe hugs Brad"
+        },
+        {
+          "shot_id": "p1_b9_b",
+          "scene_description": "Dave peeks from behind a lamp post"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "speaker": "Dave",
+      "narration": "Oh... it's on.",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b10_a",
+          "scene_description": "Dave close-up, moustache falls off"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_11",
+      "speaker": "Narrator",
+      "narration": "Part two, tomorrow.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p1_b11_a",
+          "scene_description": "Title card: Part 2 tomorrow"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,178 @@
+{
+  "project_name": "dave_part2",
+  "topic": "Dave Finds Out: Part 2",
+  "header": "Dave Finds Out \u2014 Part 2",
+  "aspect_ratio": "9:16",
+  "style_preset": "blender_3d_clay",
+  "narrator_voice": "kokoro_af_heart_upbeat + character voices",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "speaker": "Narrator",
+      "narration": "Previously... Dave caught Chloe hugging a mystery man.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b1_a",
+          "scene_description": "Recap: cafe hug"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "speaker": "Narrator",
+      "narration": "Day one of Operation Undercover. Dave disguises himself as a bush.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b2_a",
+          "scene_description": "Park: Dave hiding inside a bush, Chloe walks past"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "speaker": "Narrator",
+      "narration": "It's going perfectly... until the gardener shows up.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b3_a",
+          "scene_description": "Watering can soaks the bush"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "speaker": "Dave",
+      "narration": "Totally... worth it.",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b4_a",
+          "scene_description": "Dripping bush close-up"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "speaker": "Narrator",
+      "narration": "Day two. A trench coat, dark glasses, and a newspaper with eye holes.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b5_a",
+          "scene_description": "Dave on a bench in a trench coat with newspaper"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "speaker": "Narrator",
+      "narration": "Then a pigeon decides his hat is a nest.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b6_a",
+          "scene_description": "Pigeon lands on Dave's hat"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "speaker": "Dave",
+      "narration": "Don't move. Stay undercover.",
+      "voice": "am_michael",
+      "speed": 1.1,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b7_a",
+          "scene_description": "Close-up: Dave frozen, pigeon on head"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "speaker": "Narrator",
+      "narration": "Finally, he sneaks into the cafe, and hears Chloe whisper...",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b8_a",
+          "scene_description": "Cafe interior: Chloe on phone, Dave behind a plant"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "speaker": "Chloe",
+      "narration": "He can never find out.",
+      "voice": "af_bella",
+      "speed": 1.12,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b9_a",
+          "scene_description": "Close-up: Chloe whispering"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "speaker": "Narrator",
+      "narration": "Then the tall stranger walks in. And he's... crying?",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b10_a",
+          "scene_description": "Brad walks in holding his phone, tears"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_11",
+      "speaker": "Brad",
+      "narration": "Dave? Is she... your girlfriend too?",
+      "voice": "am_onyx",
+      "speed": 1.0,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b11_a",
+          "scene_description": "Brad and Dave face to face, Brad shows his phone"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_12",
+      "speaker": "Narrator",
+      "narration": "Part three, tomorrow.",
+      "voice": "af_heart",
+      "speed": 1.15,
+      "pause_after": 0.3,
+      "shots": [
+        {
+          "shot_id": "p2_b12_a",
+          "scene_description": "Title card: Part 3 tomorrow"
+        }
+      ]
+    }
+  ]
+}
