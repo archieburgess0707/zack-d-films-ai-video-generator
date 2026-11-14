@@ -24,6 +24,7 @@ SHOTS = {}         # filled from the project's shots.py
 HEADER = ""
 W, H, FPS, K = 720, 1280, 30, 2          # K = supersampling factor
 OUTRO = 3.5
+CAPTION_STYLE = "outline"  # or "ink" (set per project in beats.json)
 COUNT_STEP = 0.9   # seconds per countdown number (3, 2, 1) before the reveal
 FONT_B = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 _fonts = {}
@@ -299,9 +300,15 @@ def draw_caption(d, chunks, T):
             x = W / 2 - total / 2
             pop = 1 + 0.12 * (1 - ease((T - ch[0]["start"]) / 0.12))
             for w, s, wd in zip(ch, texts, widths):
-                active = w["start"] <= T < w["end"] + 0.05
-                d.text(x + wd / 2, 1150, s, size * (pop if active else 1),
-                       (255, 230, 40) if active else (255, 255, 255), stroke=6)
+                active = w["start"] <= T < w["end"]
+                if CAPTION_STYLE == "ink":  # dark marker text, yellow highlighter on the spoken word
+                    if active:
+                        d.rect(x - 8, 1150 - size * 0.55, x + wd + 8, 1150 + size * 0.6, (255, 225, 60, 200), r=10)
+                    d.text(x + wd / 2, 1150, s, size * (pop if active else 1),
+                           (215, 50, 50) if active else (30, 32, 40))
+                else:
+                    d.text(x + wd / 2, 1150, s, size * (pop if active else 1),
+                           (255, 230, 40) if active else (255, 255, 255), stroke=6)
                 x += wd + gap
             return
 
@@ -322,6 +329,11 @@ def load_project(project_dir):
     HEADER = data.get("header", data.get("topic", "")).upper()
     global OUTRO
     OUTRO = float(data.get("outro_sec", OUTRO))  # optional per-project end-card length
+    global FONT_B, CAPTION_STYLE
+    CAPTION_STYLE = data.get("caption_style", "outline")
+    if data.get("font") and os.path.exists(data["font"]):  # optional per-project caption/title font
+        FONT_B = data["font"]
+        _fonts.clear()
 
 
 def init():

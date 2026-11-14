@@ -1,0 +1,210 @@
+{
+  "project_name": "no_moon_whiteboard",
+  "topic": "What If the Moon Disappeared?",
+  "header": "What if the Moon disappeared?",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_whiteboard",
+  "narrator_voice": "kokoro_af_heart_upbeat",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "Hook",
+      "narration": "If the Moon disappeared tonight, the biggest change wouldn't be in the sky... it would be in the ocean.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "scene_description": "Moon vanishing from the night sky",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_1_b",
+          "scene_description": "Ocean waves under a moonless sky",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "Tides",
+      "narration": "The Moon's gravity pulls on our seas, creating the tides. Without it, the tides would shrink to about a third of their size.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "scene_description": "Earth with the Moon pulling an ocean bulge",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_2_b",
+          "scene_description": "Tide gauge dropping to one third",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "Rock Pools",
+      "narration": "Beaches and rock pools that depend on the tides would change forever, and lots of sea creatures living there would struggle.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "scene_description": "Rock pool with a crab and starfish drying out",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_3_b",
+          "scene_description": "Sad crab",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Dark Nights",
+      "narration": "Nights would get much darker too. No moonlight at all... just stars.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "scene_description": "Moonlit town going dark",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_4_b",
+          "scene_description": "Pitch black night with only stars",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "Corals",
+      "narration": "That's a big problem for animals. Corals use the full moon as a signal to release their eggs, all at the same time.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "scene_description": "Coral reef releasing eggs under a full moon",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_5_b",
+          "scene_description": "Confused coral with no moon",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "hook": false,
+      "title_en": "Eclipses",
+      "narration": "And you could say goodbye to total solar eclipses. There'd be nothing to block the Sun.",
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "scene_description": "Total solar eclipse",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_6_b",
+          "scene_description": "Crossed-out eclipse",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "title_en": "Month",
+      "narration": "Even our calendars would feel strange. The word month actually comes from the word moon!",
+      "shots": [
+        {
+          "scene_description": "Calendar with moon phases",
+          "zoom_impact": false,
+          "shot_id": "beat_7_a"
+        },
+        {
+          "scene_description": "MONTH = MOON word reveal",
+          "zoom_impact": false,
+          "shot_id": "beat_7_b"
+        }
+      ],
+      "beat_id": "beat_7",
+      "hook": false
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "Wobble",
+      "narration": "Over millions of years, Earth's tilt could start to wobble without the Moon to steady it, causing wild, extreme seasons.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "scene_description": "Tilted Earth wobbling",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_8_b",
+          "scene_description": "Summer and winter extremes split screen",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Twist",
+      "narration": "But here's the crazy part. The Moon actually is leaving us, right now.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "scene_description": "Moon slowly drifting away from Earth",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_9_b",
+          "scene_description": "Ruler between Earth and Moon",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Fingernails",
+      "narration": "It drifts about four centimetres further away every year. That's roughly as fast as your fingernails grow.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "scene_description": "+4 cm per year label",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_10_b",
+          "scene_description": "Fingernail growing next to a ruler",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_11",
+      "hook": false,
+      "title_en": "Ending",
+      "narration": "Don't worry though. It'll be around for billions of years. So go and enjoy the view tonight.",
+      "shots": [
+        {
+          "shot_id": "beat_11_a",
+          "scene_description": "Moon rising over a hill",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_11_b",
+          "scene_description": "Person waving at the Moon",
+          "zoom_impact": false
+        }
+      ]
+    }
+  ],
+  "font": "/usr/share/fonts/opentype/comic-neue/ComicNeue-Bold.otf",
+  "caption_style": "ink"
+}
