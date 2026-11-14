@@ -1,0 +1,203 @@
+{
+  "project_name": "hole_through_earth",
+  "topic": "What If You Dug a Hole Through the Earth and Jumped In?",
+  "header": "What if you jumped through the Earth?",
+  "aspect_ratio": "9:16",
+  "style_preset": "blender_3d_clay",
+  "narrator_voice": "kokoro_af_heart_upbeat",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "Hook",
+      "narration": "If you dug a hole straight through the Earth and jumped in, you'd pop out the other side in about thirty-eight minutes... and then fall right back in.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "scene_description": "Spinning clay Earth, camera pushes in"
+        },
+        {
+          "shot_id": "beat_1_b",
+          "scene_description": "Character jumps into a hole in the ground"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "Distance",
+      "narration": "First, you'd have to dig through almost thirteen thousand kilometres of rock.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "scene_description": "Cutaway Earth with a glowing line straight through the middle"
+        },
+        {
+          "shot_id": "beat_2_b",
+          "scene_description": "Cutaway rotating"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "Kola",
+      "narration": "The deepest hole humans have ever dug only reached about twelve kilometres. Today it's just a small rusty cap in the ground.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "scene_description": "Ground with a small capped borehole",
+          "share": 0.6
+        },
+        {
+          "shot_id": "beat_3_b",
+          "scene_description": "Earth from space with a tiny scratch"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Mantle",
+      "narration": "Below the crust is the mantle: hot rock that slowly flows, like incredibly thick toffee.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "scene_description": "Camera drifts over the glowing mantle layer"
+        },
+        {
+          "shot_id": "beat_4_b",
+          "scene_description": "Close-up of the mantle"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "Core",
+      "narration": "Then the outer core, an ocean of liquid metal, and finally the inner core, about as hot as the surface of the Sun.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "scene_description": "Glowing orange outer core"
+        },
+        {
+          "shot_id": "beat_5_b",
+          "scene_description": "Blazing inner core"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "hook": false,
+      "title_en": "Magic Tube",
+      "narration": "But let's say you had a magic, heat-proof tube, with all the air sucked out. You jump.",
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "scene_description": "A glass tube slides through the cutaway"
+        },
+        {
+          "shot_id": "beat_6_b",
+          "scene_description": "Character leaps into the tube"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "hook": false,
+      "title_en": "Speed",
+      "narration": "Gravity pulls you faster and faster. By the centre, you're moving about as fast as a rocket heading into orbit.",
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "scene_description": "Character falling down the tube"
+        },
+        {
+          "shot_id": "beat_7_b",
+          "scene_description": "Dot racing down the tunnel in the cutaway"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "Weightless",
+      "narration": "And right at the centre, you'd feel completely weightless, because the whole planet is pulling you equally in every direction.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "scene_description": "Character floating at the centre, arms out"
+        },
+        {
+          "shot_id": "beat_8_b",
+          "scene_description": "Arrows pulling in from all sides"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Other Side",
+      "narration": "Then you start slowing down, rising up towards the other side, until you pop out, about thirty-eight minutes after you jumped.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "scene_description": "Dot rising towards the far side"
+        },
+        {
+          "shot_id": "beat_9_b",
+          "scene_description": "Character popping out of a hole on the other side"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Yo-yo",
+      "narration": "But here's the crazy part. Unless someone grabs you, you'd fall straight back down and do it all again... forever. A human yo-yo.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "scene_description": "Character falling back down"
+        },
+        {
+          "shot_id": "beat_10_b",
+          "scene_description": "Dot bouncing back and forth through the Earth"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_11",
+      "hook": false,
+      "title_en": "UK to NZ",
+      "narration": "And if you jumped in from the UK, you'd pop out in the Pacific Ocean, near New Zealand.",
+      "shots": [
+        {
+          "shot_id": "beat_11_a",
+          "scene_description": "Globe turning from the UK to the far side"
+        },
+        {
+          "shot_id": "beat_11_b",
+          "scene_description": "Character popping out of the ocean with a splash"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_12",
+      "hook": false,
+      "title_en": "Ending",
+      "narration": "So... would you jump? Tell me in the comments.",
+      "shots": [
+        {
+          "shot_id": "beat_12_a",
+          "scene_description": "Character waving on the Earth"
+        },
+        {
+          "shot_id": "beat_12_b",
+          "scene_description": "Character waving"
+        }
+      ]
+    }
+  ]
+}
