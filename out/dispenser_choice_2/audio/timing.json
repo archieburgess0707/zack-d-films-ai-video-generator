@@ -1,0 +1,62 @@
+[
+ {
+  "beat_id": "beat_1",
+  "start": 0.0,
+  "dur": 4.731,
+  "text": "Which dispenser would you choose? Part two! These are even harder. Three seconds each!"
+ },
+ {
+  "beat_id": "beat_2",
+  "start": 4.731,
+  "dur": 6.409,
+  "text": "Round one! Buttery popcorn... or crispy fries?"
+ },
+ {
+  "beat_id": "beat_3",
+  "start": 11.14,
+  "dur": 5.727,
+  "text": "Round two! Hot dogs... or burgers?"
+ },
+ {
+  "beat_id": "beat_4",
+  "start": 16.867,
+  "dur": 6.537,
+  "text": "Round three! A chocolate milkshake... or hot chocolate?"
+ },
+ {
+  "beat_id": "beat_5",
+  "start": 23.404,
+  "dur": 6.068,
+  "text": "Round four! Chocolate cake... or cupcakes?"
+ },
+ {
+  "beat_id": "beat_6",
+  "start": 29.472,
+  "dur": 6.388,
+  "text": "Round five! Juicy watermelon... or ice cream?"
+ },
+ {
+  "beat_id": "beat_7",
+  "start": 35.86,
+  "dur": 5.812,
+  "text": "Round six! Pancakes... or donuts?"
+ },
+ {
+  "beat_id": "beat_8",
+  "start": 41.672,
+  "dur": 5.705,
+  "text": "Round seven! Sushi... or pizza?"
+ },
+ {
+  "beat_id": "beat_9",
+  "start": 47.377,
+  "dur": 8.329,
+  "text": "Final round! A thousand dollars, right now... or free pizza, for the rest of your life?"
+ },
+ {
+  "beat_id": "beat_10",
+  "start": 55.707,
+  "dur": 2.981,
+  "text": "Comment your picks! And tell me what part three should be!"
+ }
+]

@@ -1,0 +1,210 @@
+{
+  "project_name": "no_bees",
+  "topic": "What If All the Bees Disappeared?",
+  "header": "What if all the bees disappeared?",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_procedural",
+  "narrator_voice": "kokoro_af_heart_upbeat",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "hook": true,
+      "title_en": "Hook",
+      "narration": "If every bee on Earth disappeared, your breakfast would look very different by next year.",
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "scene_description": "Breakfast table with fruit vanishing",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_1_b",
+          "scene_description": "Bee flying away",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "hook": false,
+      "title_en": "Pollen",
+      "narration": "That's because bees carry pollen from flower to flower, and that's how lots of plants make fruit.",
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "scene_description": "Bee hopping between flowers carrying pollen",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_2_b",
+          "scene_description": "Flower turning into an apple",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "hook": false,
+      "title_en": "Fruit",
+      "narration": "Say goodbye to cheap apples, blueberries, cherries, and almonds. Almond farms rely almost entirely on bees.",
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "scene_description": "Fruit with rising price tags",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_3_b",
+          "scene_description": "Almond tree, bee-only label",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "hook": false,
+      "title_en": "Burgers",
+      "narration": "Even burgers and milk could cost more, because cows eat alfalfa, a plant farmers grow with help from bees.",
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "scene_description": "Cow eating alfalfa",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_4_b",
+          "scene_description": "Burger and milk with price tags",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "hook": false,
+      "title_en": "Cotton",
+      "narration": "And your clothes? Cotton plants do better with bees too.",
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "scene_description": "Cotton plant",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_5_b",
+          "scene_description": "T-shirt",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "title_en": "Coffee",
+      "narration": "Coffee lovers wouldn't be happy either. Visits from bees help coffee plants grow more beans.",
+      "shots": [
+        {
+          "scene_description": "Coffee plant with red cherries",
+          "zoom_impact": false,
+          "shot_id": "beat_6_a"
+        },
+        {
+          "scene_description": "Sad person with an empty coffee cup",
+          "zoom_impact": false,
+          "shot_id": "beat_6_b"
+        }
+      ],
+      "beat_id": "beat_6",
+      "hook": false
+    },
+    {
+      "beat_id": "beat_7",
+      "hook": false,
+      "title_en": "Hand Pollination",
+      "narration": "In some places, people already pollinate fruit trees by hand, using tiny brushes, one flower at a time.",
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "scene_description": "Farmer on a ladder with a brush",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_7_b",
+          "scene_description": "Close-up brush on a flower",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "hook": false,
+      "title_en": "Not Starving",
+      "narration": "But you wouldn't starve. Rice, wheat, and corn are pollinated by the wind, not bees.",
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "scene_description": "Wind blowing over wheat and corn",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_8_b",
+          "scene_description": "Rice bowl",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "hook": false,
+      "title_en": "Twist",
+      "narration": "And here's the crazy part. Chocolate would survive! Cocoa flowers are pollinated by tiny flies called midges.",
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "scene_description": "Chocolate bar celebrating",
+          "zoom_impact": false,
+          "share": 0.5
+        },
+        {
+          "shot_id": "beat_9_b",
+          "scene_description": "Tiny midge on a cocoa flower",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "hook": false,
+      "title_en": "Colourless",
+      "narration": "Still, without bees, food would cost more, and meals would be a lot less colourful.",
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "scene_description": "Colourful plate turning grey",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_10_b",
+          "scene_description": "Grey plate",
+          "zoom_impact": false
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_11",
+      "hook": false,
+      "title_en": "Ending",
+      "narration": "So next time a bee buzzes past you, don't panic... just let it bee.",
+      "shots": [
+        {
+          "shot_id": "beat_11_a",
+          "scene_description": "Bee buzzing past a smiling person",
+          "zoom_impact": false
+        },
+        {
+          "shot_id": "beat_11_b",
+          "scene_description": "Bee with a heart",
+          "zoom_impact": false
+        }
+      ]
+    }
+  ],
+  "outro_sec": 5.0
+}

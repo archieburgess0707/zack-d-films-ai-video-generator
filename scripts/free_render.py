@@ -320,6 +320,8 @@ def load_project(project_dir):
     SHOTS = mod.SHOTS
     data = json.load(open(os.path.join(HERE, "beats.json")))
     HEADER = data.get("header", data.get("topic", "")).upper()
+    global OUTRO
+    OUTRO = float(data.get("outro_sec", OUTRO))  # optional per-project end-card length
 
 
 def init():

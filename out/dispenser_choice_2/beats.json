@@ -1,0 +1,138 @@
+{
+  "project_name": "dispenser_choice_2",
+  "topic": "Which Dispenser Would You Choose? Part 2",
+  "header": "Which dispenser? Part 2",
+  "aspect_ratio": "9:16",
+  "style_preset": "free_procedural",
+  "narrator_voice": "kokoro_af_heart_upbeat",
+  "beats": [
+    {
+      "beat_id": "beat_1",
+      "title_en": "Title",
+      "narration": "Which dispenser would you choose? Part two! These are even harder. Three seconds each!",
+      "pause_after": 0.4,
+      "shots": [
+        {
+          "shot_id": "beat_1_a",
+          "scene_description": "Title card part 2"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_2",
+      "title_en": "Round one",
+      "narration": "Round one! Buttery popcorn... or crispy fries?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_2_a",
+          "scene_description": "A: Buttery popcorn; B: crispy fries"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_3",
+      "title_en": "Round two",
+      "narration": "Round two! Hot dogs... or burgers?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_3_a",
+          "scene_description": "A: Hot dogs; B: burgers"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_4",
+      "title_en": "Round three",
+      "narration": "Round three! A chocolate milkshake... or hot chocolate?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_4_a",
+          "scene_description": "A: A chocolate milkshake; B: hot chocolate"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_5",
+      "title_en": "Round four",
+      "narration": "Round four! Chocolate cake... or cupcakes?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_5_a",
+          "scene_description": "A: Chocolate cake; B: cupcakes"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_6",
+      "title_en": "Round five",
+      "narration": "Round five! Juicy watermelon... or ice cream?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_6_a",
+          "scene_description": "A: Juicy watermelon; B: ice cream"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_7",
+      "title_en": "Round six",
+      "narration": "Round six! Pancakes... or donuts?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_7_a",
+          "scene_description": "A: Pancakes; B: donuts"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_8",
+      "title_en": "Round seven",
+      "narration": "Round seven! Sushi... or pizza?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_8_a",
+          "scene_description": "A: Sushi; B: pizza"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_9",
+      "title_en": "Final",
+      "narration": "Final round! A thousand dollars, right now... or free pizza, for the rest of your life?",
+      "pause_after": 3.7,
+      "countdown": 3.6,
+      "shots": [
+        {
+          "shot_id": "beat_9_a",
+          "scene_description": "A: $1,000 cash; B: free pizza for life"
+        }
+      ]
+    },
+    {
+      "beat_id": "beat_10",
+      "title_en": "Comment",
+      "narration": "Comment your picks! And tell me what part three should be!",
+      "pause_after": 0.4,
+      "shots": [
+        {
+          "shot_id": "beat_10_a",
+          "scene_description": "Comment your picks card"
+        }
+      ]
+    }
+  ]
+}
