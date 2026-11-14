@@ -314,7 +314,27 @@ def draw_caption(d, chunks, T):
 
 
 SHOTS_TL, CHUNKS, TOTAL = None, None, None
+HOOK, HOOK_SECS = [], 2.2   # optional huge opening text (beats.json "hook_text": ["LINE 1", "LINE 2", ...])
 BG = {}
+
+
+def draw_hook(d, T):
+    """Scroll-stopping opener: big stacked lines (each sized to fill the width) that punch in, then fade."""
+    fade = 1 - ease((T - (HOOK_SECS - 0.4)) / 0.4)
+    if fade <= 0:
+        return
+    sizes = [min(118, 96 * (W - 50) / (font(96).getlength(l) / K)) for l in HOOK]
+    total = sum(z * 1.15 for z in sizes)
+    y = 600 - total / 2
+    d.rect(0, y - 30, W, y + total + 10, (0, 0, 0, int(150 * fade)))
+    for i, (line, size) in enumerate(zip(HOOK, sizes)):
+        pop = ease((T - i * 0.18) / 0.15)
+        cy = y + size * 0.6
+        y += size * 1.15
+        if pop <= 0:
+            continue
+        col = ((255, 230, 40) if i % 2 else (255, 255, 255)) + (int(255 * fade),)
+        d.text(W / 2, cy, line, size * (1.2 - 0.2 * pop), col, stroke=7, sfill=(0, 0, 0, int(255 * fade)))
 
 
 def load_project(project_dir):
@@ -327,6 +347,8 @@ def load_project(project_dir):
     SHOTS = mod.SHOTS
     data = json.load(open(os.path.join(HERE, "beats.json")))
     HEADER = data.get("header", data.get("topic", "")).upper()
+    global HOOK
+    HOOK = [l.upper() for l in data.get("hook_text", [])]
     global OUTRO
     OUTRO = float(data.get("outro_sec", OUTRO))  # optional per-project end-card length
     global FONT_B, CAPTION_STYLE
@@ -359,6 +381,8 @@ def render(fi):
     hs = min(34, 34 * (W - 50) / (font(34).getlength(HEADER) / K))  # shrink long titles to fit
     d.text(W / 2, 86, HEADER, hs, (255, 255, 255), stroke=3)
     draw_caption(d, CHUNKS, T)
+    if HOOK and T < HOOK_SECS:
+        draw_hook(d, T)
     img = img.reduce(K)
     # slow push-in on every shot + punch zoom/shake on impact shots
     z = 1 + 0.04 * (t / shot["dur"])
